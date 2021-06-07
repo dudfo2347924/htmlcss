@@ -1,0 +1,15 @@
+div{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid aqua;
+    float: left;
+
+}
+#box1{
+    box-sizing: border-box;  /*padding을 포함한 크기다*/
+}
+#box2{
+    box-sizing: content-box; /*콘텐츠 크기*/
+}

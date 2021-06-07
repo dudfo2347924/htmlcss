@@ -1,0 +1,15 @@
+#contents{
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    background: url(images/bg.jpg) no-repeat;
+    position: relative;
+}
+h1{
+    color: #fff;
+    font-size: 100px;
+    text-shadow: 2px 3px 0px #000;
+    position: absolute;
+    bottom: 100px;
+    right: 30%;
+}

@@ -1,0 +1,16 @@
+fieldset{
+    margin-bottom: 10px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    /* line-height: 30px; */
+    margin: 15px 0;
+}
+label{
+    width: 80px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}

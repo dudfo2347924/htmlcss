@@ -1,0 +1,14 @@
+div{
+    margin: 20px;
+}
+ul{
+    list-style: none;
+
+}
+ul li{
+    line-height: 2;
+}
+.font{
+    color: brown;
+    font-weight: bold;
+}

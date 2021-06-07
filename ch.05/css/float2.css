@@ -1,0 +1,25 @@
+div{
+    margin-right: 20px;
+}
+.box1{
+    background-color: #ff0;
+    float: left;
+    padding: 10px 20px;
+}
+.box2{
+    background-color: #f0f;
+    float: left;
+    padding: 10px 20px;
+}
+.box3{
+    background-color: #f00;
+    /* clear: both; */
+    float: right;
+    padding: 10px 20px;
+}
+.box4{
+    background-color: #00f;
+    /* float: right; */
+    clear: left;
+    padding: 10px 20px;
+}

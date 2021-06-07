@@ -1,0 +1,18 @@
+div{
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+}
+.ex1{
+    background-color: red;
+    overflow: visible;
+}
+.ex2{
+    background-color: blue;
+    overflow: hidden;
+}
+.ex3{
+    background-color: green;
+    overflow: auto;
+}

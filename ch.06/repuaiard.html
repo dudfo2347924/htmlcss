@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="css/repuaiard.css">
+</head>
+<body>
+    <div id="container">
+        <form action="" method="post">
+            <fieldset>
+                <legend>배송 정보</legend>
+                <ul id="shipping">
+                    <li>
+                        <label for="grod">주문 상품</label>
+                        <input type="text" id="grod" value="상품용 3KG" readonly>
+                    </li>
+                    <li>
+                        <label for="name">이름</label>
+                        <input type="text" id="name" autofocus required>
+                    </li>
+                    <li>
+                        <label for="addr">배송 주소</label>
+                        <input type="text" id="addre" required>
+                    </li>
+                    <li>
+                        <label for="email">이메일</label>
+                        <input type="email" id="email" size="30" required>
+                    </li>
+                    <li>
+                        <label for="phone">연락처</label>
+                        <input type="tel" id="phone" placeholder="하이픈은 빼고 입력해주세요." required>
+                    </li>
+                    <li>
+                        <label for="d-day">배송지정</label>
+                        <input type="date" id=d-day" required>
+                    </li>
+                    <li>
+                        <label for="memo">메모</label>
+                        <textarea cols="40" rows="4" id="mamo"></textarea>
+                    </li>
+                </ul>
+            </fieldset>
+            <div id="serch">
+                <input type="submit" value="주문하기">
+                <input type="reset" value="취소하기">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+h1,p{
+    color:blue;
+}
+#container{
+    border: 1px solid #222;
+    width: 600px;
+    padding: 10px;
+
+}
+.redtext{color: red;}

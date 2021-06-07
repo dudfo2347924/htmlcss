@@ -1,0 +1,14 @@
+caption{
+    border: 1px solid #ccc;
+    line-height: 3;
+}
+table{
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid #ccc;
+}

@@ -1,0 +1,43 @@
+#container{
+    width: 1200px;
+    height: 820px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    background-color: blue;
+    height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.side1{
+    width: 250px;
+    height: 600px;
+    float: left;
+    background-color: blueviolet;
+    padding: 10px;
+    box-sizing: border-box;
+}
+main{
+    width: 800px;
+    height: 600px;
+    float: left;
+    background-color: brown;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.side2{
+    width: 150px;
+    height: 600px;
+    float: left;
+    background-color: burlywood;
+    padding: 10px;
+    box-sizing: border-box;
+}
+footer{
+    height: 100px;
+    clear: both;
+    background-color: cadetblue;
+    padding: 10px;
+    box-sizing: border-box;
+}

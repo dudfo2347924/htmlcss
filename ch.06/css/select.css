@@ -1,0 +1,10 @@
+ul{
+    list-style: none;
+}
+ul li{
+    line-height: 2;
+}
+label{
+    width: 80px;
+    float: left;
+}
