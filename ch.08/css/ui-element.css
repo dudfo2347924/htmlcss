@@ -1,0 +1,12 @@
+fieldset{
+    margin: 20px;
+}
+input:disabled{
+    background-color: tomato;
+    color: #008080;
+    border: 2px solid green;
+    height: 20px;
+}
+input:checked + span{
+    color: blue;
+}

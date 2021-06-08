@@ -98,3 +98,6 @@ footer{
     color: rgb(126, 126, 126);
     text-decoration: none;
 }
+#bottomMenu li:nth-last-child(1){
+    border-right: none;
+}

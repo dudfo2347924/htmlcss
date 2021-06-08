@@ -1,0 +1,32 @@
+ul{
+    list-style: none;
+    display: inline;
+    margin-top: 30px;
+}
+ul li{
+    display: inline;
+    padding: 10px 10px;
+}
+ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: red;
+}
+ul li a[href]{
+    background-color: aqua;
+}
+ul li a:hover{
+    color: yellow;
+}
+ul li a[href]:hover{
+    background-color: #000;
+}
+ul li a:active{
+    color: #000;
+}
+ul li a[href]:active{
+    background-color: #fff;
+}
+ul li a:focus{
+    border: 3px solid #ffff00;
+}
