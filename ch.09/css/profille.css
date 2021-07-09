@@ -1,0 +1,64 @@
+/* 모바일 기준 */
+*{margin: 0; padding: 0;}
+#container{width: 100%; margin: 0 auto;}
+/* 헤더 스타일 */
+header{
+    width: 100%; height: 250px;
+    background: url(../images/bg0.jpg) no-repeat;
+    background-size: cover;
+}
+nav{
+    height: 60px; background-color: red;
+}
+#main-nav{list-style: none; text-align: center; line-height: 60px;}
+#main-nav li{display: inline; margin: 0 15px;}
+#main-nav li a:link, a:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+#main-nav li a:hover{ background-color: black; color: yellow;}
+
+/* 본문 스타일 */
+section{width: 100%; padding: 10px 5%;}
+section:nth-child(2n+1){background: green;}
+section .page-title{padding: 15px;}
+section .content .photo{display: none;}
+section .content .text p{line-height: 2em; padding-left: 30px;}
+section .content #career li{margin-left: 50px; line-height: 2em;}
+section .content #link{padding-left: 30px;}
+section .content #link li a{text-decoration: none; color: black;}
+section .content #link li a:hover{text-decoration: none; color: red;}
+
+/* 푸터 스타일 */
+footer{height: 60px; border-top: 2px solid #ddd;}
+footer #bottomMenu{margin-top: 20px; margin-left: 80px;}
+footer #bottomMenu ul{list-style: none;}
+footer #bottomMenu ul li{display: inline; padding-right: 20px;
+                        border-right: 1px solid #ccc;}
+footer #bottomMenu ul li:last-child{border: none;}
+footer #bottomMenu li a{text-decoration: none; color: #ccc;}
+footer #bottomMenu li a:hover{text-decoration: none; color: #000;}
+
+/* 태블릿 기준 */
+@media screen and (min-width:768px) {
+    header{height: 300px;}
+    #Who, #job{float:left; width: 50%; height: 270px;
+                box-sizing: border-box;
+    }
+    #skill{clear: both;}
+}
+
+/* PC 기준 */
+@media screen and (min-width:1024px) {
+    #container{width: 1024; margin: 0 auto;border: 1px solid #ccc;}
+    header{height: 320px;}
+    #Who, #job,#skill{width: 100%;}
+    footer{clear: both;}
+    #Who .photo{float: left; display: block; margin: 0 20px;}
+    #skill .photo{float: right; display: block; margin-right: 15%;}
+
+}
+
+
+
